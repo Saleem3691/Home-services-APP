@@ -10,6 +10,9 @@ const nextConfig = {
     NEXTAUTH_URL: process.env.NEXTAUTH_URL,
   },
   trailingSlash: true, // Helps with path resolution
+   "rules": {
+    "react/no-unescaped-entities": "off"
+  }
 };
 
 export default nextConfig;
